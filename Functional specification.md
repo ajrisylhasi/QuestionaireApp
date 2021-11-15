@@ -6,4 +6,5 @@
 
 
 ## IX.ER diagram
-![1](https://user-images.githubusercontent.com/76019638/141781214-a6dfb0ae-da13-4fd2-80e5-621fd23e940f.png)
+
+![qq drawio](https://user-images.githubusercontent.com/76019638/141781360-d104c862-c77e-4bd6-b731-4806c50b490e.png)
