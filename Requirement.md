@@ -10,6 +10,18 @@ We'd like to make a simple web questionnaire that allows students to answer ques
 
 Allowing users (especially students) to easily access our web based questionnaire and simply go through some questions after filling very few personal information fields; all in a responsive and super clear layout.
 
+A simple yet appealing webpage where everything is visible.
+
+Answering the questionnaire shall be done anonymously.
+
+A login button (for administrators).
+
+A resert button (for the user) to clear responses from all fields.
+
+Different questionnaires available.
+
+Multiple questions, of multiple types, per quesstionaire.
+
 
 ## III.Current processes (model)
 
