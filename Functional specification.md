@@ -7,4 +7,5 @@
 
 ## IX.ER diagram
 
-![qq drawio](https://user-images.githubusercontent.com/76019638/141781360-d104c862-c77e-4bd6-b731-4806c50b490e.png)
+
+![qq drawio (1)](https://user-images.githubusercontent.com/76019638/141795018-3b64dd47-bd0a-49a6-a26a-28fc94969081.png)
