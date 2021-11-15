@@ -29,10 +29,13 @@ The user has to answer a questionnaire:
 - User access the questionnaire's home webpage.
 - Selects a questionnaire to answer (from a list).
 - Fills questions' fields anonymously.
-- If reset button is hit, fields are cleared; user fills again.
-- User selects "submit"  to finalize and send out the filled questionnaire.
-- A confirmation is prompted.
-- User either confirms or denies to make changes.
+- If reset button is hit: 
+  - fields are cleared
+  - user fills again.
+- Else, user selects "submit":
+  - finalizes and sends out the filled questionnaire.
+- A confirmation is prompted:
+  - User either confirms or denies to make changes.
 
 ## IV.Required processes (model)
 
