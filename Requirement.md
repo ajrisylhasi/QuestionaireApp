@@ -25,6 +25,15 @@ Multiple questions, of multiple types, per quesstionaire.
 
 ## III.Current processes (model)
 
+The user has to answer a questionnaire:
+- User access the questionnaire's home webpage.
+- Selects a questionnaire to answer (from a list).
+- Fills questions' fields anonymously.
+- If reset button is hit, fields are cleared; user fills again.
+- User selects "submit"  to finalize and send out the filled questionnaire.
+- A confirmation is prompted.
+- User either confirms or denies to make changes.
+
 ## IV.Required processes (model)
 
 ## V.Law, rules, standards
