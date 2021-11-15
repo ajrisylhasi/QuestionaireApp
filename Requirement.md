@@ -4,9 +4,12 @@
 
 The need for information is always increasing and gathering it by asking people questions is necessary for statistical analysis, researches..etc
 
-We'd like to make an web questionnaire that allows students to answer questions of different types regarding multiple offered topics.
+We'd like to make a simple web questionnaire that allows students to answer questions of different types regarding multiple offered topics.
 
 ## II.Wanted System
+
+Allowing users (especially students) to easily access our web based questionnaire and simply go through some questions after filling very few personal information fields; all in a responsive and super clear layout.
+
 
 ## III.Current processes (model)
 
