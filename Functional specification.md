@@ -61,6 +61,8 @@ The user has to answer a questionnaire:
 - Responses to be stored in Database.
 - Reset Button to clear all responses.
 
+
+
 ## VII.Dictionary
 
 - Multiple choice: questions with the possibility of selecting multiple answers at the same time
@@ -74,7 +76,7 @@ The user has to answer a questionnaire:
 ## VIII.Use case
 - Companies can use our questionnaireis  to collect data from their customers and got quickly feedback. Moreover it helps to collect data when researches are made.
 
-![Questionnaire1](https://user-images.githubusercontent.com/76019638/141781207-27704d81-2050-49bb-a77b-e70e8b6ba6eb.png)
+ ![use case](https://user-images.githubusercontent.com/76019638/142875695-37d2313c-352b-421a-aee0-ce90d682b3d7.png)
 
 
 
