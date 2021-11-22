@@ -34,3 +34,32 @@ The weekly breakdown of the project parts is shown in the table below:
 1.A University of Debrecen asked us to create a questionnaire for students: to gain data is they are satisfied by university, is it easy to find internship, etc.
 2. We will do the software with the developers for several weeks, with documentation, concluding the necessary contracts and in the meantime we will communicate with the customer periodically.
 3. If the software suits both the tester users and the developers, we will eventually publishbr published on live servers.
+
+## IV. Requirements
+**General System Requirements:
+
+- Any user can utilize the app and answer any questionnaire.
+- Web page accessible from both computer and mobile devices.
+- A database is created to store questionnaires, submissions..etc 
+- Elements are carried out by JavaScript
+
+**Interface Requirements:
+
+- A clean and simple user interface
+- Buttons are well placed and adjusted around the page
+- Extra useful buttons (Reset, Login..) available
+- Page is responsive on mobile devices
+- Very little use of appealing colors in the questionnaires
+- An email field is required so users can finalize their submission
+
+**Functional Requirements:
+
+- User should be able to easily navigate and answer questions
+- Necessary types of questions are:
+  - Open Text field
+  - Multiple choice dropdown
+  - Single choice dropdown
+- Admins have an administration  page to manage everything
+
+
+
