@@ -36,14 +36,14 @@ The weekly breakdown of the project parts is shown in the table below:
 3. If the software suits both the tester users and the developers, we will eventually publishbr published on live servers.
 
 ## IV. Requirements
-**General System Requirements:
+**General System Requirements:**
 
 - Any user can utilize the app and answer any questionnaire.
 - Web page accessible from both computer and mobile devices.
 - A database is created to store questionnaires, submissions..etc 
 - Elements are carried out by JavaScript
 
-**Interface Requirements:
+**Interface Requirements:**
 
 - A clean and simple user interface
 - Buttons are well placed and adjusted around the page
@@ -52,7 +52,7 @@ The weekly breakdown of the project parts is shown in the table below:
 - Very little use of appealing colors in the questionnaires
 - An email field is required so users can finalize their submission
 
-**Functional Requirements:
+**Functional Requirements:**
 
 - User should be able to easily navigate and answer questions
 - Necessary types of questions are:
