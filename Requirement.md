@@ -16,7 +16,7 @@ Answering the questionnaire shall be done anonymously.
 
 A login button (for administrators).
 
-A resert button (for the user) to clear responses from all fields.
+A reset button (for the user) to clear responses from all fields.
 
 Different questionnaires available.
 
@@ -39,8 +39,25 @@ The user has to answer a questionnaire:
 
 ## IV.Required processes (model)
 
+- Some consider responding to survey questions as a sophisticated cognitive process whereby respondents go through, often iterative, steps to process the information provided to them by questions and response options.
+- Others focus more on the interplay between questions and answers as a complex communication process between researchers and respondents, their assumptions, expectations and perceptions. In this model, we will have few questionnaires created in advance and allow the users to add more questions or create a new quistionnare.
+- Also there will be options to select one or more answers to the given question as per the model.
+
 ## V.Law, rules, standards
 
+- Anonymously answers can be given to the questionare.
+- The administrators will be provided with login credentials to see the responses for statistical analysis, researches..etc
+- There will be a reset button for clearing the responses once the user finds he/she want to schange their responses.
+- Administrator has an option to add a new question or create a new questionare.
+
 ## VI.Requirement list
+
+- Easy to navigate interface.
+- Login credentials for the administractor.
+- Multiple choice questions per questionnaire.
+- Adding new question in the questionnaire.
+- Creating new questionnaire.
+- Responses to be stored in Database.
+- Reset Button to clear all responses.
 
 ## VII.Dictionary
