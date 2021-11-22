@@ -74,6 +74,7 @@ The user has to answer a questionnaire:
 
 
 ## IX.ER diagram
+![erd](https://user-images.githubusercontent.com/76019638/142870770-2cf5e82d-efbf-4142-ab13-4196acdf9694.png)
 
 
-![qq drawio (1)](https://user-images.githubusercontent.com/76019638/141795018-3b64dd47-bd0a-49a6-a26a-28fc94969081.png)
+
