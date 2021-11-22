@@ -1,12 +1,11 @@
 # System Plan
 ## I. Purpose of the system
-The goal of the system is to create 
+The goal of the system is to create online questionnaire that could easily accessible from browser or mobile device. The main purpose of a questionnaire is to extract data from the respondents. 
 
-The main purpose of a questionnaire is to extract data from the respondents
+For the sake of the user experience, it is important to be able to give simple interface and clear questions. Each question block should appear in a visible way, separate from either your computer or mobile device. The website will be compatible with most browsers, this means its operation and display
 
 It’s a relatively inexpensive, quick, and efficient way of collecting large amount data even when the researcher isn’t present to collect those responses first hand.
-
-Every questionnaire is anonymous, it is a guarantee of confidentiality and privacy. There are 
+Every questionnaire is anonymous, it is a guarantee of confidentiality and privacy. 
 
 ## II. Project plan
 
