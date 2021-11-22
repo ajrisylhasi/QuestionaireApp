@@ -62,3 +62,10 @@ The user has to answer a questionnaire:
 - Reset Button to clear all responses.
 
 ## VII.Dictionary
+
+- Multiple choice: questions with the possibility of selecting multiple answers at the same time
+- Single choice: questions with the possibility of one single answer
+- Open field: questions where users type freely in a text field
+- Submit: finalizing and sending out the filled questionnaire
+- Login: admins identifying in the page and accessing management
+- Reset: clearing all fields in a questionnaire
