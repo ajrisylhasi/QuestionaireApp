@@ -31,7 +31,7 @@ The weekly breakdown of the project parts is shown in the table below:
 
 ## III. Business process model
 
-1.A University of Debrecen asked us to create a questionnaire for students: to gain data is they are satisfied by university, is it easy to find internship, etc.
+1. A University of Debrecen asked us to create a questionnaire for students: to gain data is they are satisfied by university, is it easy to find internship, etc.
 2. We will do the software with the developers for several weeks, with documentation, concluding the necessary contracts and in the meantime we will communicate with the customer periodically.
 3. If the software suits both the tester users and the developers, we will eventually publishbr published on live servers.
 
