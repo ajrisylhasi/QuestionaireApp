@@ -1,0 +1,37 @@
+<%= nested_form_for @questionnaire do |f| %>
+  <% if questionnaire.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(questionnaire.errors.count, "error") %> prohibited this questionnaire from being saved:</h2>
+
+      <ul>
+        <% questionnaire.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+  <%= f.fields_for :questions do |questions| %>
+    <div class="field" data-atr="<%= questions %>">
+      <%= questions.label "Question" %>
+      <%= questions.text_field :text %>
+      <%= questions.label :question_type %>
+      <%= questions.select :question_type, ['Open Answer', 'Multiple Choice', 'Single Choice'], {}, {onChange: "change_question_type()", class: 'question_type_select'}%>
+      <div class="possibleSolutions">
+        <%= questions.label "Possible Answers" %>
+        <%= questions.text_field :possible_solutions %>
+      </div>
+      <%= questions.link_to_remove "Remove this task" %>
+    </div>
+  <% end %>
+  <p><%= f.link_to_add "Add a Question", :questions %></p>
+  
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

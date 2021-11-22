@@ -1,0 +1,44 @@
+<%= form_with(model: submission) do |form| %>
+  <% if submission.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(submission.errors.count, "error") %> prohibited this submission from being saved:</h2>
+
+      <ul>
+        <% submission.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <%= @submission.questionnaire_id %>
+
+
+  <div class="field">
+    <%=  form.fields_for :answers do |answer| %>
+
+      <p>Question <%= @count %></p>
+
+      <%= @questions.find_by(id: answer.object.question_id).text %><br>
+      <%= answer.text_field :value %>
+
+      <%= answer.hidden_field :question_id, value: answer.object.question_id %> 
+      <%= answer.hidden_field :submission, value: @submission %> 
+      <% @count += 1 %>
+    <% end %>
+  </div>
+
+  <div class="field">
+    <%= form.label :email %>
+    <%= form.text_field :email %>
+  </div>
+
+  <%= form.hidden_field :questionnaire_id, value: @submission.questionnaire_id %>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
+
+
+

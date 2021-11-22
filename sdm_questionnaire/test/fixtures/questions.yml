@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  questionnaire: one
+  text: MyString
+  type: 
+  possible_solution: MyString
+
+two:
+  questionnaire: two
+  text: MyString
+  type: 
+  possible_solution: MyString
