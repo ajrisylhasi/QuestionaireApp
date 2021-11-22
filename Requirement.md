@@ -42,6 +42,7 @@ The user has to answer a questionnaire:
 - Some consider responding to survey questions as a sophisticated cognitive process whereby respondents go through, often iterative, steps to process the information provided to them by questions and response options.
 - Others focus more on the interplay between questions and answers as a complex communication process between researchers and respondents, their assumptions, expectations and perceptions. In this model, we will have few questionnaires created in advance and allow the users to add more questions or create a new quistionnare.
 - Also there will be options to select one or more answers to the given question as per the model.
+- Admins should be able to login and manage answered questionnaires.
 
 ## V.Law, rules, standards
 
