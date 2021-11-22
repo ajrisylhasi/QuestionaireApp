@@ -61,5 +61,28 @@ The weekly breakdown of the project parts is shown in the table below:
   - Single choice dropdown
 - Admins have an administration  page to manage everything
 
+## V.Functional Design:
+- System participants:
+  - Page admins
+  - Testers
+  - Normal users
 
+- Access rights in the system:
+  - Admins:
+    - Full access to all parts of the aapp.
+    - Able to view it as a normal user (and Preview changes).
+    - Make changes to database and functions.
+    - Change layout and design.
+    - Manage submissions (answers).
+    - Access to a full record of submissions with assigned emails.
+
+  - Testers:
+    - Access a preview version of the web page.
+    - Pick questionnaires and answer questions normally.
+    - No additional access to admins' pages.
+
+  - Normal users:
+    - Normally access the index of questionnaires then other sub pages.
+    - Answer questionnaires and navigate all fields of questions.
+    - Finilize submissions by enterting their email.
 
