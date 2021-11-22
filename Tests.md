@@ -1,4 +1,4 @@
-# Tests will be run and file will be updated once an early version of the app is available.
+# Tests will be run and file will be updated once an early version of the app is available and running.
 
 ## The following table will contain details about tests run by each admin:
 
