@@ -1,3 +1,47 @@
-// Place all the styles related to the Submissions controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+.cardView {
+	display: flex;
+	flex-wrap:  wrap;
+	div {
+		width:  25%;
+		height: 100px;
+		background: linear-gradient(180deg, #4DB3F3 0%, #1C99E7 100%);
+		margin: 20px;
+		position: relative;
+		a {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			&:hover {
+				background-color: rgba(221, 242, 255, 0.2);
+			}
+			z-index: 2;
+		}
+	}
+}
+
+.field {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 700px;
+	background: linear-gradient(180deg, #4DB3F3 0%, #1C99E7 100%);
+	p {
+		width:  100%;
+		margin: 25px;
+	}
+	input[type=checkbox] {
+		min-width: 50px;
+		margin-right: 0px;
+	}
+	label {
+		margin-right: 15px;
+	}
+	input {
+		margin: 25px;
+		margin-top: 0px;
+	}
+	select {
+		margin: 25px;
+		margin-top: 0px;
+	}
+}

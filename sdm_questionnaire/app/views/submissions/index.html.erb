@@ -1,25 +1,11 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Submissions</h1>
-<%= params[:errors] %>
-<table>
-  <thead>
-    <tr>
-      <th>Questionnaire</th>
-      <th>Link</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @questionnaires.each do |questionnaire| %>
-      <tr>
-        <td><%= questionnaire.name %></td>
-        <td><%= link_to "fill", new_submission_path(:questionnaire_id => questionnaire.id) %></td>
-        <td><%= questionnaire.submissions.count %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
+<h1>Click on a Questionnaire to fill</h1>
+<div class="cardView">
+  <% @questionnaires.each do |questionnaire| %>
+    <div>
+      <h3><%= questionnaire.name %></h3>
+      <%= link_to "", new_submission_path(:questionnaire_id => questionnaire.id), class: "hiddenLink" %>
+    </div>
+  <% end %>
+</div>

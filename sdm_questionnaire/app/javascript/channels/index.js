@@ -7,10 +7,10 @@ channels.keys().forEach(channels)
 
 window.change_question_type = function() {
 
-	if(event.currentTarget.value != "Open Answer") {
-		event.currentTarget.parentElement.querySelector('.possibleSolutions').classList.add('show');
-	} else {
+	if(event.currentTarget.value == "Open Answer" || event.currentTarget.value == "Number") {
 		event.currentTarget.parentElement.querySelector('.possibleSolutions').classList.remove('show');
+	} else {
+		event.currentTarget.parentElement.querySelector('.possibleSolutions').classList.add('show');
 	}
 }
 

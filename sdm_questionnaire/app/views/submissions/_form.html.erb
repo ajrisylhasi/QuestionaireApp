@@ -11,15 +11,11 @@
     </div>
   <% end %>
 
-  <%= @submission.questionnaire_id %>
-
 
 
     <%=  form.fields_for :answers do |answer| %>
       <div class="field">
-        <p>Question <%= @count %></p>
-
-        <%= @questions.find_by(id: answer.object.question_id).text %><br>
+        <p>Question <%= @count %> - <%= @questions.find_by(id: answer.object.question_id).text %></p>
 
         <% if @questions.find_by(id: answer.object.question_id).possible_solutions_array %>
 
@@ -32,7 +28,8 @@
           <% else %>
             <%= answer.select :value, @questions.find_by(id: answer.object.question_id).possible_solutions_array %>  
           <% end %>
-
+        <% elsif @questions.find_by(id: answer.object.question_id).question_type == "Number" %>
+          <%= answer.number_field :value, :required => true %>
         <% else %>    
           <%= answer.text_field :value, :required => true %>
         <% end %>
@@ -44,7 +41,7 @@
     <% end %>
 
   <div class="field">
-    <%= form.label :email %>
+    <p><%= form.label :email %></p>
     <%= form.text_field :email, :required => true %>
   </div>
 

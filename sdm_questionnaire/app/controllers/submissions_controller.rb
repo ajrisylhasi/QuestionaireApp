@@ -18,7 +18,7 @@ class SubmissionsController < ApplicationController
     @questions.each do |q|
       @submission.answers.build(question_id: q.id)
     end
-    @count = 0
+    @count = 1
   end
 
   # GET /submissions/1/edit
@@ -30,7 +30,7 @@ class SubmissionsController < ApplicationController
     @submission = Submission.new(submission_params)
     respond_to do |format|
       if @submission.save
-        format.html { redirect_to @submission, notice: "Submission was successfully updated." }
+        format.html { redirect_to submissions_path, notice: "Submission was successfully updated." }
         format.json { render :show, status: :ok, location: @submission }
       else
         puts @submission.errors.full_messages

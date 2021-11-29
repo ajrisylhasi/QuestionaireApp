@@ -12,3 +12,11 @@
 
 <%= link_to 'Edit', edit_submission_path(@submission) %> |
 <%= link_to 'Back', submissions_path %>
+
+<% @submission.answers.each do |q| %>
+  <div class="field">
+    <p>Question: <%= q.question.text %></p>
+    <p>Answer: <%= q.value %>
+  </div>
+<% end %>
+
