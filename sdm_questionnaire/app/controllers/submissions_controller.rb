@@ -28,12 +28,12 @@ class SubmissionsController < ApplicationController
   # POST /submissions or /submissions.json
   def create
     @submission = Submission.new(submission_params)
-    @count = 0
     respond_to do |format|
       if @submission.save
         format.html { redirect_to @submission, notice: "Submission was successfully updated." }
         format.json { render :show, status: :ok, location: @submission }
       else
+        puts @submission.errors.full_messages
         format.html { render :new, status: :unprocessable_entity }
         format.json { render json: @submission.errors, status: :unprocessable_entity }
       end
@@ -70,6 +70,6 @@ class SubmissionsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def submission_params
-      params.require(:submission).permit(:questionnaire_id, :email, answers_attributes: [:id, :value, :question_id, :submission_id])
+      params.require(:submission).permit(:questionnaire_id, :email, answers_attributes: [:id, :value, :value_array, :question_id, :submission_id])
     end
 end

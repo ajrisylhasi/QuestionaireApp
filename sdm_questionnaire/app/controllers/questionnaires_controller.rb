@@ -14,6 +14,7 @@ class QuestionnairesController < ApplicationController
   # GET /questionnaires/new
   def new
     @questionnaire = Questionnaire.new
+    @question_count = 0
   end
 
   # GET /questionnaires/1/edit
@@ -23,7 +24,6 @@ class QuestionnairesController < ApplicationController
   # POST /questionnaires or /questionnaires.json
   def create
     @questionnaire = Questionnaire.new(questionnaire_params)
-
     respond_to do |format|
       if @questionnaire.save
         format.html { redirect_to @questionnaire, notice: "Questionnaire was successfully created." }

@@ -15,17 +15,19 @@
     <%= f.label :name %>
     <%= f.text_field :name %>
   </div>
-  <%= f.fields_for :questions do |questions| %>
-    <div class="field" data-atr="<%= questions %>">
-      <%= questions.label "Question" %>
-      <%= questions.text_field :text %>
-      <%= questions.label :question_type %>
-      <%= questions.select :question_type, ['Open Answer', 'Multiple Choice', 'Single Choice'], {}, {onChange: "change_question_type()", class: 'question_type_select'}%>
+  <%= f.fields_for :questions do |question| %>
+    <div class="question_fields">
+      <%= question.label "Question" %>
+      <%= question.text_field :text %>
+      <%= question.hidden_field :possible_solutions %>
+      <%= question.label :question_type %>
+      <%= question.select :question_type, ['Open Answer', 'Multiple Choice', 'Single Choice'], {}, {onChange: "change_question_type()", class: 'question_type_select'}%>
       <div class="possibleSolutions">
-        <%= questions.label "Possible Answers" %>
-        <%= questions.text_field :possible_solutions %>
+        <div><%= question.label "Possible Answers" %></div>
+        <input class="possibleSolution"/><span onClick="addPossibleSolution()">Add Possible Answer</span>
       </div>
-      <%= questions.link_to_remove "Remove this task" %>
+      <p onClick="confirmSolutions()">Done With Solutions</p>
+      <%= question.link_to_remove "Remove this task" %>
     </div>
   <% end %>
   <p><%= f.link_to_add "Add a Question", :questions %></p>

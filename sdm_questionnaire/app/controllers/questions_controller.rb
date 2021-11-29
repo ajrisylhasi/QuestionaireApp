@@ -23,6 +23,7 @@ class QuestionsController < ApplicationController
   def create
     @question = Question.new(question_params)
 
+    @question.possible_solutions = @questionnaire.possible_solutions.split('*,*')
     respond_to do |format|
       if @question.save
         format.html { redirect_to @question, notice: "Question was successfully created." }

@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+
+.possibleSolutions {
+    display:  none;
+}
+.possibleSolutions.show {
+    display:  block;
+}

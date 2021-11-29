@@ -14,23 +14,38 @@
   <%= @submission.questionnaire_id %>
 
 
-  <div class="field">
+
     <%=  form.fields_for :answers do |answer| %>
+      <div class="field">
+        <p>Question <%= @count %></p>
 
-      <p>Question <%= @count %></p>
+        <%= @questions.find_by(id: answer.object.question_id).text %><br>
 
-      <%= @questions.find_by(id: answer.object.question_id).text %><br>
-      <%= answer.text_field :value %>
+        <% if @questions.find_by(id: answer.object.question_id).possible_solutions_array %>
 
-      <%= answer.hidden_field :question_id, value: answer.object.question_id %> 
-      <%= answer.hidden_field :submission, value: @submission %> 
-      <% @count += 1 %>
+          <% if @questions.find_by(id: answer.object.question_id).question_type == "Multiple Choice" %>
+            <%= answer.hidden_field :value %>  
+            <% answer.object.question.possible_solutions_array.each do |ps| %>
+              <input type="checkbox" name="possibleSolution" onChange="change_selected_answer('<%=ps%>')">
+              <label for="possibleSolution"><%=ps%></label>
+            <% end %>
+          <% else %>
+            <%= answer.select :value, @questions.find_by(id: answer.object.question_id).possible_solutions_array %>  
+          <% end %>
+
+        <% else %>    
+          <%= answer.text_field :value, :required => true %>
+        <% end %>
+
+        <%= answer.hidden_field :question_id, value: answer.object.question_id %> 
+        <%= answer.hidden_field :submission_id, value: @submission %> 
+        <% @count += 1 %>
+      </div>
     <% end %>
-  </div>
 
   <div class="field">
     <%= form.label :email %>
-    <%= form.text_field :email %>
+    <%= form.text_field :email, :required => true %>
   </div>
 
   <%= form.hidden_field :questionnaire_id, value: @submission.questionnaire_id %>
