@@ -10,7 +10,7 @@
 |        Gabriel|Browser Testing|V1  |30.11.2021  |fail        |                                    |
 | Skander           |Responsive Design Testing|V2  |30.11.2021  |successful       |                                        |
 |   Sam,Skander      |Speed Testing|V1   |30.11.2021 |fail        |                                        |
-|   Ankita Gabriel      |Broken Link Testing|V2 |30.11.2021  | successful       |                                        |
+|   Ankita,Gabriel      |Broken Link Testing|V2 |30.11.2021  | successful       |                                        |
 |  Ajri,Skander      |Readability Testing |V1  |30.11.2021 | successful       |                                   |
 |     Gabriel   |Login and User Security|V2  |30.11.2021 | successful       |                              |
 |    Skander    |URL test|V2  |30.11.2021 |  successful      |  |
