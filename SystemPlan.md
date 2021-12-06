@@ -112,14 +112,24 @@ Ruby on Rails as the framework
 
 ## IX. Database plan
 
-No database is required for the program as it performs calculations in real time, and does not store any user data.
+The Databse was created in SQLite 3
+Four Tables:
+- Questionaires
+- Submissions
+- Questions
+- Answers
 
+Used to Keep track of all the data submitted by the users and administrators
 ## X. Test plan
 
 * Test cases:
-    1. Test of division by 0
-    2. Testing of non numerical, or operation symbol input
-    3. Appearance testing
+- Database testing of schema, tables, triggers etc.	
+- HTML and CSS test
+- JS and Ruby test
+- Destroy Questionnaires
+- Speed Testing
+-  
+    
 
 ## XI. Installation plan
 
