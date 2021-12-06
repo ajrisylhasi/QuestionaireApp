@@ -94,6 +94,46 @@ The weekly breakdown of the project parts is shown in the table below:
   * VSCode
   * Trello
   * GitHub
+## VIII. Architectural plan
 
+HTML displays the buttons and labels, and general interface.
+CSS is used to style the site to make it look similar to the interface of a physical calcultor
+SCSS is used to streamline the CSS
+Javascript for functionality.
+Ruby on Rails as the framework
+
+## IX. Database plan
+
+No database is required for the program as it performs calculations in real time, and does not store any user data.
+
+## X. Test plan
+
+* Test cases:
+    1. Test of division by 0
+    2. Testing of non numerical, or operation symbol input
+    3. Appearance testing
+
+## XI. Installation plan
+
+No Isntallation is required by the user as it is browser based.
+
+* Server side system plan:
+    * Rent a web server
+    * FTP access
+        
+
+## XII. Maintenance plan
+
+Maintanance will only be necessary with the need of additional operations requested by the users.
+
+Means of update:
+* FTP
+* SSH
+
+In case of updating, it is necessary to perform:
+* Update the file on the server
+* Update documentation
+* Reruns tests
+* Document test results
 
 
