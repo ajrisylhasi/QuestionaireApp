@@ -16,5 +16,3 @@
 |    Skander    |URL test|V2  |30.11.2021 |  fail      |  |
 |  Ankita      |Database Stress Testing |V2  |30.11.2021 |successful        |                                 |
 |  Sam      |Destroy Questionnaires |V2  |30.11.2021 |fail        |                                 |
-|  Skander      |Edit models |V2  |30.11.2021 |fail        |                                 |
-|  Ankita & Gabriel      |Unique Emails |V2  |30.11.2021 |fail        |                                 |
