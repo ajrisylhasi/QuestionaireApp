@@ -85,3 +85,15 @@ The weekly breakdown of the project parts is shown in the table below:
     - Answer questionnaires and navigate all fields of questions.
     - Finilize submissions by enterting their email.
 
+## VI.Physical environment:
+- The Website is designed for the web.
+- the Website will run on all accepted browsers(e.g. chrome, firefox, safari, etc)
+- Development software:
+  * Ruby On Rails
+  * SQLite 3
+  * VSCode
+  * Trello
+  * GitHub
+
+
+
