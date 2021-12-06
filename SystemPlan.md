@@ -94,6 +94,14 @@ The weekly breakdown of the project parts is shown in the table below:
   * VSCode
   * Trello
   * GitHub
+
+## VII. Abstract domain model
+- This is a simple yet attractive webpage where everything is visible. Especially students can easily access our web based questionnaire and simply go through some questions after filling very few personal information fields; all in a responsive and super clear layout.
+- Questionnaire can be answered anonymously.
+- There will be a login button (for administrators). With a reset button (for the user) to clear responses from all fields.
+- Different types of questionnaires will be available, with multiple questions, of multiple types, per quesstionaire.
+- Administrator can create and check the results.
+
 ## VIII. Architectural plan
 
 HTML displays the buttons and labels, and general interface.
