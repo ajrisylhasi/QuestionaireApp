@@ -13,6 +13,5 @@
 |   Ankita,Gabriel      |Broken Link Testing|V2 |30.11.2021  | fail       |                                        |
 |  Ajri,Skander      |Readability Testing |V1  |30.11.2021 | successful       |                                   |
 |     Gabriel   |Login and User Security|V2  |30.11.2021 | successful       |                              |
-|    Skander    |URL test|V2  |30.11.2021 |  fail      |  |
 |  Ankita      |Database Stress Testing |V2  |30.11.2021 |successful        |                                 |
 |  Sam      |Destroy Questionnaires |V2  |30.11.2021 |fail        |                                 |
